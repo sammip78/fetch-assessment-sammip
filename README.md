@@ -15,7 +15,25 @@ Here at Fetch, we love dogs, and hope you do too! Your task is to build a websit
 
 OR
 
-- View the Demo App hosted on https://vite-tanstack-demo.netlify.app/
+- View the Demo App hosted on https://dog-fetch-assessment-sammip-biradar.netlify.app
+
+## Implemented Features
+
+This projects implements all the general requirements outlined in the project description.
+- Users will be able to filter by breed.
+- Results are displayed in a paginated format.
+- Users can sort the results in ascending and descending order based on breed, age or name. 
+- All fields of the dog object are displayed in a card. 
+- Users are able to select their favorite dogs and request a match. 
+
+In addition to these general features, the projects also implements - 
+- Persisting favorite selections beyond logout. 
+    - User's favorite selections will be retained as long as they logout and log back in with the same email id. 
+    - Users will also be able to view their favorite selections and modify them on the Favorites Page. 
+- The application also supports PWA (Progressive Web App). 
+     - The application can be installed locally on native platforms like MacOS, Andriod, IOS and Windows. 
+     - For future scope we can add capabilities or features like offline access, native push notifications, etc. and take advantages of native web APIs. 
+
 
 ## General Requirements
 
